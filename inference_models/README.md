@@ -1,0 +1,11 @@
+本文件夹中模型在推理时使用
+1、model的init_model()函数用来插入mask（若mask单独存放）并将weight变为剪枝后二维存储
+2、将idx变为模型参数存储
+
+
+inference.py文件中有两个maskedMLP最终乘法有问题
+
+inference_cusparse.py中使用cusparse进行gw后端实现，conv2d使用2015作为基础，没有添加各种优化，linear则使用inference.py中做基础
+
+
+inference_2015.py中为2015年论文中提出group-wise的实现方法。
