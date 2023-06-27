@@ -1,0 +1,1 @@
+python gpu_info.py --gpu 2 --filename bs32_gw_25_gpuinfo.csv
