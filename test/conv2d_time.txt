@@ -1,0 +1,4 @@
+m im2col time: 11.529225635528565          d im2col time: 11.422699213027954
+m index select time: 1.2249583959579469               d weight im2col time: 0.024659200012683867
+m mm time: 2.1817136108875275                 d mm time: 21.574707221984863
+m reshape time: 0.03424479961395264               d reshape time: 0.03325120005756617
